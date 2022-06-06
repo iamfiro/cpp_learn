@@ -1,0 +1,19 @@
+#include <iostream>
+#define PIE 3.1415926535 // c 버젼상수 선언 #define <이름> <값>
+using namespace std;
+
+
+int main1() {
+	// 원의 넓이 구하는 프로그램
+	// 공식 : 반지름 * 반지름 * 파이
+
+	int r = 3;
+	const float pie = 3.1415926535; // 다른변수와 다르게 변수 생성시 초기화를 무조건 해야함
+	float s = r * r * PIE;
+	// 상수란
+	// 1. 바뀔 필요가 없는 수
+	// 2 바뀌어서는 안되는 수
+
+	cout << s << endl;
+	return 0;
+}
